@@ -15,5 +15,7 @@ namespace NewHomeWorkWebApi.Data.Models.Users
         public string Name { get; set; }
         [JsonPropertyName("age")]
         public int Age { get; set; }
+        [JsonPropertyName("password")]
+        public int Password { get; set; }
     }
 }
